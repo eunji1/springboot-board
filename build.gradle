@@ -26,6 +26,7 @@ dependencies {
 	implementation 'org.mariadb.jdbc:mariadb-java-client:3.1.4'
 	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
 	implementation 'org.projectlombok:lombok:1.18.30'
+	implementation 'org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4.1:1.16'  /* Log4JDBC */
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.projectlombok:lombok:1.18.30'
 
